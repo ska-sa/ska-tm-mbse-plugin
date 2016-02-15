@@ -889,7 +889,7 @@ public class CommonGenerator implements RunnableWithProgress {
 		if (!layoutlist.isEmpty())  {
 			EnumerationLiteral Enuml = layoutlist.get(0);
 			String layoutvalue = Enuml.getName();
-			layout = " role = \""+ layoutvalue + "\"";
+			layout = "layout=\""+ layoutvalue + "\"";
 		}
 		//end of customisation
 		
